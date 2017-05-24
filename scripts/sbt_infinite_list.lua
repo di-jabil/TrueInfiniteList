@@ -31,6 +31,8 @@ function InfiniteList:new(tableName, renderCB, numItems, numRows, numCols)
   	numCols = 1
   end
   
+  -- this is some changes for Git
+  
   
   local numCells = numRows * numCols
 --  self:dbg("new infinite table, numItems: %d numCells:%d", numItems, numCells)
